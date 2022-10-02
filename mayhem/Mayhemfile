@@ -1,0 +1,6 @@
+project: python-soundfile
+target: read-fuzz
+
+cmds:
+  - cmd: /src/mayhem/fuzz_read.py
+    libfuzzer: true
